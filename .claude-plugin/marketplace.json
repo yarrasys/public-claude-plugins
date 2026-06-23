@@ -1,0 +1,23 @@
+{
+  "name": "yarrasys",
+  "owner": {
+    "name": "Yarra Systems",
+    "url": "https://github.com/yarrasys"
+  },
+  "metadata": {
+    "description": "Yarra Systems' Claude Code plugins.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "yarradev-board",
+      "source": "./yarradev-board",
+      "description": "Agent-native SDLC orchestrator: a reconciliation-loop skill + role subagents (designer/developer/tester/security-advisor) that drive a yarradev HTTP board through a gated lifecycle — running on your own Claude subscription.",
+      "version": "0.1.0",
+      "author": { "name": "Yarra Systems" },
+      "homepage": "https://github.com/yarrasys/public-claude-plugins/tree/main/yarradev-board",
+      "license": "MIT",
+      "keywords": ["sdlc", "orchestration", "agents", "reconciliation-loop", "yarradev"]
+    }
+  ]
+}
